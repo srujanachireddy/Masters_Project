@@ -1,0 +1,83 @@
+<!-- pom.xml -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example</groupId>
+  <artifactId>devops4all-web</artifactId>
+  <version>0.1.0</version>
+  <packaging>war</packaging>
+
+  <name>DevOps4All Learning Platform (JSP)</name>
+  <description>Starter JSP/Servlet learning platform (mobile-first, accessible)</description>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </properties>
+
+  <dependencies>
+    <!-- Servlet API: provided by the container (Tomcat) -->
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>5.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- JSTL for JSP (common) -->
+    <dependency>
+      <groupId>jakarta.servlet.jsp.jstl</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>devops4all</finalName>
+
+    <plugins>
+      <!-- Compiler plugin -->
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+
+      <!-- WAR plugin (default for packaging war) -->
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.4.0</version>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+      </plugin>
+
+      <!-- Optional: Tomcat 9 plugin to run / deploy directly with Maven (example).
+           Using org.opoo.maven:tomcat9-maven-plugin:3.0.1. You can remove/skip this
+           and deploy the WAR to a standalone Tomcat instead. -->
+      <plugin>
+        <groupId>org.opoo.maven</groupId>
+        <artifactId>tomcat9-maven-plugin</artifactId>
+        <version>3.0.1</version>
+        <configuration>
+          <!-- default port (change if needed) -->
+          <port>8080</port>
+          <path>/devops4all</path>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+
