@@ -66,14 +66,15 @@
 
             <!-- Tomcat 9 plugin for running locally -->
             <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat9-maven-plugin</artifactId>
-                <version>3.0.1</version>
-                <configuration>
-                    <path>/</path>
-                    <port>8080</port>
-                </configuration>
-            </plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>tomcat-maven-plugin</artifactId>
+    <version>1.1</version>
+    <configuration>
+        <url>http://localhost:8080/manager/text</url>
+        <path>/</path>
+        <port>8080</port>
+    </configuration>
+</plugin>
 
             <!-- WAR plugin -->
             <plugin>
