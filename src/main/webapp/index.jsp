@@ -407,7 +407,7 @@
     <header class="header">
         <nav class="navbar">
             <a href="index.jsp" class="logo">
-                <i class="fas fa-graduation-cap"></i>
+                <em class="fas fa-graduation-cap"></em>
                 LearnPlatform
             </a>
             <ul class="nav-list">
@@ -430,10 +430,10 @@
             <p class="hero-subtitle">Join thousands of students learning HTML, CSS, JavaScript, Java, and more with industry-expert instructors</p>
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                 <a href="courses.jsp" class="btn btn-primary">
-                    <i class="fas fa-play"></i>Start Learning Free
+                    <em class="fas fa-play"></em>Start Learning Free
                 </a>
                 <a href="#features" class="btn btn-secondary">
-                    <i class="fas fa-info-circle"></i>Learn More
+                    <em class="fas fa-info-circle"></em>Learn More
                 </a>
             </div>
         </div>
@@ -447,7 +447,7 @@
         <div class="features-grid">
             <div class="feature-card fade-in">
                 <div class="feature-icon">
-                    <i class="fas fa-laptop-code"></i>
+                    <em class="fas fa-laptop-code"></em>
                 </div>
                 <h3>Hands-on Projects</h3>
                 <p>Build real-world projects and portfolio pieces while learning</p>
@@ -455,7 +455,7 @@
             
             <div class="feature-card fade-in">
                 <div class="feature-icon">
-                    <i class="fas fa-user-tie"></i>
+                    <em class="fas fa-user-tie"></em>
                 </div>
                 <h3>Expert Instructors</h3>
                 <p>Learn from industry professionals with years of experience</p>
@@ -463,7 +463,7 @@
             
             <div class="feature-card fade-in">
                 <div class="feature-icon">
-                    <i class="fas fa-rocket"></i>
+                    <em class="fas fa-rocket"></em>
                 </div>
                 <h3>Career Support</h3>
                 <p>Get job-ready with resume reviews and interview preparation</p>
@@ -479,14 +479,14 @@
         <div class="courses-grid">
             <div class="course-card fade-in">
                 <div class="course-header">
-                    <div class="course-icon"><i class="fab fa-html5"></i></div>
+                    <div class="course-icon"><em class="fab fa-html5"></em></div>
                     <h3>HTML5 & CSS3</h3>
                 </div>
                 <div class="course-content">
                     <p>Master modern web development with semantic HTML and advanced CSS</p>
                     <div class="course-meta">
-                        <span><i class="fas fa-clock"></i> 8 weeks</span>
-                        <span><i class="fas fa-user-graduate"></i> Beginner</span>
+                        <span><em class="fas fa-clock"></em> 8 weeks</span>
+                        <span><em class="fas fa-user-graduate"></em> Beginner</span>
                     </div>
                     <a href="courses.jsp" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
                 </div>
@@ -494,14 +494,14 @@
             
             <div class="course-card fade-in">
                 <div class="course-header">
-                    <div class="course-icon"><i class="fab fa-js-square"></i></div>
+                    <div class="course-icon"><em class="fab fa-js-square"></em></div>
                     <h3>JavaScript ES6+</h3>
                 </div>
                 <div class="course-content">
                     <p>Learn modern JavaScript with ES6+ features and frameworks</p>
                     <div class="course-meta">
-                        <span><i class="fas fa-clock"></i> 12 weeks</span>
-                        <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                        <span><em class="fas fa-clock"></em> 12 weeks</span>
+                        <span><em class="fas fa-user-graduate"></em> Intermediate</span>
                     </div>
                     <a href="courses.jsp" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
                 </div>
@@ -509,14 +509,14 @@
             
             <div class="course-card fade-in">
                 <div class="course-header">
-                    <div class="course-icon"><i class="fab fa-java"></i></div>
+                    <div class="course-icon"><em class="fab fa-java"></em></div>
                     <h3>Java Programming</h3>
                 </div>
                 <div class="course-content">
                     <p>Object-oriented programming and enterprise development</p>
                     <div class="course-meta">
-                        <span><i class="fas fa-clock"></i> 16 weeks</span>
-                        <span><i class="fas fa-user-graduate"></i> All Levels</span>
+                        <span><em class="fas fa-clock"></em> 16 weeks</span>
+                        <span><em class="fas fa-user-graduate"></em> All Levels</span>
                     </div>
                     <a href="courses.jsp" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
                 </div>
@@ -553,10 +553,10 @@
                 <h3>LearnPlatform</h3>
                 <p>Transforming education through technology and innovation.</p>
                 <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-                    <a href="#" style="color: #94a3b8;"><i class="fab fa-facebook fa-lg"></i></a>
-                    <a href="#" style="color: #94a3b8;"><i class="fab fa-twitter fa-lg"></i></a>
-                    <a href="#" style="color: #94a3b8;"><i class="fab fa-linkedin fa-lg"></i></a>
-                    <a href="#" style="color: #94a3b8;"><i class="fab fa-github fa-lg"></i></a>
+                    <a href="#" style="color: #94a3b8;"><em class="fab fa-facebook fa-lg"></em></a>
+                    <a href="#" style="color: #94a3b8;"><em class="fab fa-twitter fa-lg"></em></a>
+                    <a href="#" style="color: #94a3b8;"><em class="fab fa-linkedin fa-lg"></em></a>
+                    <a href="#" style="color: #94a3b8;"><em class="fab fa-github fa-lg"></em></a>
                 </div>
             </div>
             
